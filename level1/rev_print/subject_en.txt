@@ -1,0 +1,21 @@
+Assignment name		: rev_print
+Expected files		: rev_print.c
+Allowed functions	: write
+----------------------------------------------------------
+
+Write a program called rev_print that takes a string and
+display it in reverse order, followed by a newline.
+
+If the number of arguments is nor 1, just display a newline.
+
+
+Examples:
+
+$> ./rev_print "abc" | cat -e
+cba$
+
+$> ./rev_print "Alex." | cat -e
+.xelA$
+
+$ ./rev_print | cat -e
+$
